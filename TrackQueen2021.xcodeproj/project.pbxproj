@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B2E376C263614290031669F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E376B263614290031669F /* DetailView.swift */; };
+		0B9BB70B264256FD000D11B1 /* GetProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9BB70A264256FD000D11B1 /* GetProducts.swift */; };
+		0B9E5C3626795544004D8F08 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9E5C3526795544004D8F08 /* DataLoader.swift */; };
+		0BA3A07026268C6800857592 /* TrackQueen2021App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA3A06F26268C6800857592 /* TrackQueen2021App.swift */; };
+		0BA3A07226268C6800857592 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA3A07126268C6800857592 /* ContentView.swift */; };
+		0BA3A07426268C6A00857592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BA3A07326268C6A00857592 /* Assets.xcassets */; };
+		0BA3A07726268C6A00857592 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BA3A07626268C6A00857592 /* Preview Assets.xcassets */; };
+		0BA3A08226268C6A00857592 /* TrackQueen2021Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA3A08126268C6A00857592 /* TrackQueen2021Tests.swift */; };
+		0BA3A08D26268C6A00857592 /* TrackQueen2021UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA3A08C26268C6A00857592 /* TrackQueen2021UITests.swift */; };
+		0BA43C32263EFB5A0058AA94 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA43C31263EFB5A0058AA94 /* Generator.swift */; };
+		0BD33856263916F600B66644 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD33855263916F600B66644 /* Content.swift */; };
+		5275A2AA262A31830099D0D1 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5275A2A9262A31830099D0D1 /* Placeholder.swift */; };
+		5275A2B0262A38AC0099D0D1 /* Contentful in Frameworks */ = {isa = PBXBuildFile; productRef = 5275A2AF262A38AC0099D0D1 /* Contentful */; };
+		52ABBB6F264334D800EE2B4A /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ABBB6E264334D800EE2B4A /* FormView.swift */; };
+		52D141D026433ADA00550FA1 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D141CF26433ADA00550FA1 /* TabView.swift */; };
+		52DE1E98264071540034583F /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE1E97264071540034583F /* GridView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BA3A07E26268C6A00857592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BA3A06426268C6800857592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BA3A06B26268C6800857592;
+			remoteInfo = TrackQueen2021;
+		};
+		0BA3A08926268C6A00857592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BA3A06426268C6800857592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BA3A06B26268C6800857592;
+			remoteInfo = TrackQueen2021;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B2E376B263614290031669F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		0B63F0A7264F9A1D0066753D /* TrackQueen2021.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrackQueen2021.entitlements; sourceTree = "<group>"; };
+		0B9BB70A264256FD000D11B1 /* GetProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProducts.swift; sourceTree = "<group>"; };
+		0B9E5C3526795544004D8F08 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		0BA3A06C26268C6800857592 /* TrackQueen2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackQueen2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BA3A06F26268C6800857592 /* TrackQueen2021App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackQueen2021App.swift; sourceTree = "<group>"; };
+		0BA3A07126268C6800857592 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0BA3A07326268C6A00857592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BA3A07626268C6A00857592 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0BA3A07826268C6A00857592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BA3A07D26268C6A00857592 /* TrackQueen2021Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackQueen2021Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BA3A08126268C6A00857592 /* TrackQueen2021Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackQueen2021Tests.swift; sourceTree = "<group>"; };
+		0BA3A08326268C6A00857592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BA3A08826268C6A00857592 /* TrackQueen2021UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackQueen2021UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BA3A08C26268C6A00857592 /* TrackQueen2021UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackQueen2021UITests.swift; sourceTree = "<group>"; };
+		0BA3A08E26268C6A00857592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BA43C31263EFB5A0058AA94 /* Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
+		0BD33855263916F600B66644 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		5275A2A9262A31830099D0D1 /* Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = Models/Placeholder.swift; sourceTree = "<group>"; };
+		52ABBB6E264334D800EE2B4A /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		52D141CF26433ADA00550FA1 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		52DE1E97264071540034583F /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BA3A06926268C6800857592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5275A2B0262A38AC0099D0D1 /* Contentful in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BA3A07A26268C6A00857592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BA3A08526268C6A00857592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BA3A06326268C6800857592 = {
+			isa = PBXGroup;
+			children = (
+				0BA3A06E26268C6800857592 /* TrackQueen2021 */,
+				0BA3A08026268C6A00857592 /* TrackQueen2021Tests */,
+				0BA3A08B26268C6A00857592 /* TrackQueen2021UITests */,
+				0BA3A06D26268C6800857592 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BA3A06D26268C6800857592 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BA3A06C26268C6800857592 /* TrackQueen2021.app */,
+				0BA3A07D26268C6A00857592 /* TrackQueen2021Tests.xctest */,
+				0BA3A08826268C6A00857592 /* TrackQueen2021UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BA3A06E26268C6800857592 /* TrackQueen2021 */ = {
+			isa = PBXGroup;
+			children = (
+				0B63F0A7264F9A1D0066753D /* TrackQueen2021.entitlements */,
+				0BA3A06F26268C6800857592 /* TrackQueen2021App.swift */,
+				52ABBB6E264334D800EE2B4A /* FormView.swift */,
+				0BA3A07126268C6800857592 /* ContentView.swift */,
+				52DE1E97264071540034583F /* GridView.swift */,
+				0BD33855263916F600B66644 /* Content.swift */,
+				52D141CF26433ADA00550FA1 /* TabView.swift */,
+				0B9BB70A264256FD000D11B1 /* GetProducts.swift */,
+				0BA43C31263EFB5A0058AA94 /* Generator.swift */,
+				0B2E376B263614290031669F /* DetailView.swift */,
+				0B9E5C3526795544004D8F08 /* DataLoader.swift */,
+				5275A2A9262A31830099D0D1 /* Placeholder.swift */,
+				0BA3A07326268C6A00857592 /* Assets.xcassets */,
+				0BA3A07826268C6A00857592 /* Info.plist */,
+				0BA3A07526268C6A00857592 /* Preview Content */,
+			);
+			path = TrackQueen2021;
+			sourceTree = "<group>";
+		};
+		0BA3A07526268C6A00857592 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0BA3A07626268C6A00857592 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0BA3A08026268C6A00857592 /* TrackQueen2021Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0BA3A08126268C6A00857592 /* TrackQueen2021Tests.swift */,
+				0BA3A08326268C6A00857592 /* Info.plist */,
+			);
+			path = TrackQueen2021Tests;
+			sourceTree = "<group>";
+		};
+		0BA3A08B26268C6A00857592 /* TrackQueen2021UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0BA3A08C26268C6A00857592 /* TrackQueen2021UITests.swift */,
+				0BA3A08E26268C6A00857592 /* Info.plist */,
+			);
+			path = TrackQueen2021UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BA3A06B26268C6800857592 /* TrackQueen2021 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BA3A09126268C6A00857592 /* Build configuration list for PBXNativeTarget "TrackQueen2021" */;
+			buildPhases = (
+				0BA3A06826268C6800857592 /* Sources */,
+				0BA3A06926268C6800857592 /* Frameworks */,
+				0BA3A06A26268C6800857592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackQueen2021;
+			packageProductDependencies = (
+				5275A2AF262A38AC0099D0D1 /* Contentful */,
+			);
+			productName = TrackQueen2021;
+			productReference = 0BA3A06C26268C6800857592 /* TrackQueen2021.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BA3A07C26268C6A00857592 /* TrackQueen2021Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BA3A09426268C6A00857592 /* Build configuration list for PBXNativeTarget "TrackQueen2021Tests" */;
+			buildPhases = (
+				0BA3A07926268C6A00857592 /* Sources */,
+				0BA3A07A26268C6A00857592 /* Frameworks */,
+				0BA3A07B26268C6A00857592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BA3A07F26268C6A00857592 /* PBXTargetDependency */,
+			);
+			name = TrackQueen2021Tests;
+			productName = TrackQueen2021Tests;
+			productReference = 0BA3A07D26268C6A00857592 /* TrackQueen2021Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0BA3A08726268C6A00857592 /* TrackQueen2021UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BA3A09726268C6A00857592 /* Build configuration list for PBXNativeTarget "TrackQueen2021UITests" */;
+			buildPhases = (
+				0BA3A08426268C6A00857592 /* Sources */,
+				0BA3A08526268C6A00857592 /* Frameworks */,
+				0BA3A08626268C6A00857592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BA3A08A26268C6A00857592 /* PBXTargetDependency */,
+			);
+			name = TrackQueen2021UITests;
+			productName = TrackQueen2021UITests;
+			productReference = 0BA3A08826268C6A00857592 /* TrackQueen2021UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BA3A06426268C6800857592 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					0BA3A06B26268C6800857592 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					0BA3A07C26268C6A00857592 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 0BA3A06B26268C6800857592;
+					};
+					0BA3A08726268C6A00857592 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 0BA3A06B26268C6800857592;
+					};
+				};
+			};
+			buildConfigurationList = 0BA3A06726268C6800857592 /* Build configuration list for PBXProject "TrackQueen2021" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BA3A06326268C6800857592;
+			packageReferences = (
+				5275A2AE262A38AC0099D0D1 /* XCRemoteSwiftPackageReference "contentful" */,
+			);
+			productRefGroup = 0BA3A06D26268C6800857592 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BA3A06B26268C6800857592 /* TrackQueen2021 */,
+				0BA3A07C26268C6A00857592 /* TrackQueen2021Tests */,
+				0BA3A08726268C6A00857592 /* TrackQueen2021UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BA3A06A26268C6800857592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA3A07726268C6A00857592 /* Preview Assets.xcassets in Resources */,
+				0BA3A07426268C6A00857592 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BA3A07B26268C6A00857592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BA3A08626268C6A00857592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BA3A06826268C6800857592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ABBB6F264334D800EE2B4A /* FormView.swift in Sources */,
+				0BA43C32263EFB5A0058AA94 /* Generator.swift in Sources */,
+				5275A2AA262A31830099D0D1 /* Placeholder.swift in Sources */,
+				0BD33856263916F600B66644 /* Content.swift in Sources */,
+				0B2E376C263614290031669F /* DetailView.swift in Sources */,
+				0B9BB70B264256FD000D11B1 /* GetProducts.swift in Sources */,
+				0BA3A07226268C6800857592 /* ContentView.swift in Sources */,
+				0B9E5C3626795544004D8F08 /* DataLoader.swift in Sources */,
+				52DE1E98264071540034583F /* GridView.swift in Sources */,
+				52D141D026433ADA00550FA1 /* TabView.swift in Sources */,
+				0BA3A07026268C6800857592 /* TrackQueen2021App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BA3A07926268C6A00857592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA3A08226268C6A00857592 /* TrackQueen2021Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BA3A08426268C6A00857592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA3A08D26268C6A00857592 /* TrackQueen2021UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BA3A07F26268C6A00857592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BA3A06B26268C6800857592 /* TrackQueen2021 */;
+			targetProxy = 0BA3A07E26268C6A00857592 /* PBXContainerItemProxy */;
+		};
+		0BA3A08A26268C6A00857592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BA3A06B26268C6800857592 /* TrackQueen2021 */;
+			targetProxy = 0BA3A08926268C6A00857592 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BA3A08F26268C6A00857592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0BA3A09026268C6A00857592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BA3A09226268C6A00857592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TrackQueen2021/TrackQueen2021.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
+				DEVELOPMENT_ASSET_PATHS = "\"TrackQueen2021/Preview Content\"";
+				DEVELOPMENT_TEAM = 7EYVSUVBD6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TrackQueen2021/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 5.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johncanelis.TrackQueen2021;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BA3A09326268C6A00857592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TrackQueen2021/TrackQueen2021.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
+				DEVELOPMENT_ASSET_PATHS = "\"TrackQueen2021/Preview Content\"";
+				DEVELOPMENT_TEAM = 7EYVSUVBD6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TrackQueen2021/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 5.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johncanelis.TrackQueen2021;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0BA3A09526268C6A00857592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7EYVSUVBD6;
+				INFOPLIST_FILE = TrackQueen2021Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johncanelis.TrackQueen2021Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackQueen2021.app/TrackQueen2021";
+			};
+			name = Debug;
+		};
+		0BA3A09626268C6A00857592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7EYVSUVBD6;
+				INFOPLIST_FILE = TrackQueen2021Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johncanelis.TrackQueen2021Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackQueen2021.app/TrackQueen2021";
+			};
+			name = Release;
+		};
+		0BA3A09826268C6A00857592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7EYVSUVBD6;
+				INFOPLIST_FILE = TrackQueen2021UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johncanelis.TrackQueen2021UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrackQueen2021;
+			};
+			name = Debug;
+		};
+		0BA3A09926268C6A00857592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7EYVSUVBD6;
+				INFOPLIST_FILE = TrackQueen2021UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johncanelis.TrackQueen2021UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrackQueen2021;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BA3A06726268C6800857592 /* Build configuration list for PBXProject "TrackQueen2021" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BA3A08F26268C6A00857592 /* Debug */,
+				0BA3A09026268C6A00857592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BA3A09126268C6A00857592 /* Build configuration list for PBXNativeTarget "TrackQueen2021" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BA3A09226268C6A00857592 /* Debug */,
+				0BA3A09326268C6A00857592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BA3A09426268C6A00857592 /* Build configuration list for PBXNativeTarget "TrackQueen2021Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BA3A09526268C6A00857592 /* Debug */,
+				0BA3A09626268C6A00857592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BA3A09726268C6A00857592 /* Build configuration list for PBXNativeTarget "TrackQueen2021UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BA3A09826268C6A00857592 /* Debug */,
+				0BA3A09926268C6A00857592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5275A2AE262A38AC0099D0D1 /* XCRemoteSwiftPackageReference "contentful" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/contentful/contentful.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5275A2AF262A38AC0099D0D1 /* Contentful */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5275A2AE262A38AC0099D0D1 /* XCRemoteSwiftPackageReference "contentful" */;
+			productName = Contentful;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0BA3A06426268C6800857592 /* Project object */;
+}
