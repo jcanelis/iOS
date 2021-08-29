@@ -11,7 +11,7 @@ import SwiftUI
 struct TrackQueen2021App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView().environmentObject(Generator())
+            WabView()
         }
     }
 }

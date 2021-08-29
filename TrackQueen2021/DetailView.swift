@@ -22,7 +22,6 @@ struct DetailView: View {
     var body: some View {
         NavigationView {
             ScrollView {
-                
                 TabView {
                     ForEach(item.photos!, id: \.self) { result in
                         AsyncImage(url: result.url!) { image in
@@ -30,17 +29,13 @@ struct DetailView: View {
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                         } placeholder: {
-                            Image(systemName: "photo")
-                                .resizable()
-                                .aspectRatio(contentMode: .fit)
+                            Color.gray
                         }
-                        
                     }
                 }
                 .frame(height: 432.0)
                 .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
                 .tabViewStyle(PageTabViewStyle())
-                
                 
                 Text("This is regular text.")
                 Text("* This is **bold** text, this is *italic* text.")
@@ -74,7 +69,6 @@ struct DetailView: View {
                         .buttonStyle(.bordered)
                         .tint(.accentColor)
                         .controlSize(.large)
-                        .controlProminence(.increased)
                         .frame(maxWidth: 380)
                         
                         Button(action: { print("hi") }) {
@@ -90,13 +84,6 @@ struct DetailView: View {
                             .scaleEffect(1.5, anchor: .center)
                             .progressViewStyle(CircularProgressViewStyle())
                     }
-                }
-            }
-        }
-        .toolbar {
-            ToolbarItem(placement: .navigationBarLeading) {
-                Button("Get Products") {
-                    print("hji")
                 }
             }
         }

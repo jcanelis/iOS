@@ -39,23 +39,28 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            List(searchResults) { result in
-                NavigationLink(destination: DetailView(item: result)) {
-                    HStack {
-                        AsyncImage(url: result.photos![0].url!) { image in
-                            image
-                                .resizable()
-                                .aspectRatio(contentMode: .fill)
-                        } placeholder: {
-                            Color.gray
+            VStack {
+                List(searchResults) { result in
+                    NavigationLink(destination: DetailView(item: result)) {
+                        HStack {
+                            AsyncImage(url: result.photos![0].url!) { image in
+                                image
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fill)
+                            } placeholder: {
+                                Color("Grey")
+                            }
                         }
+                        .frame(width: 48, height: 48)
+                        .mask(RoundedRectangle(cornerRadius: 16))
+                        .padding(.trailing, 8.0)
+                        
+                        Text("\(result.title!)")
+                            .badge("\(result.price!)")
                     }
-                    .frame(width: 48, height: 48)
-                    .mask(RoundedRectangle(cornerRadius: 16))
-                    .padding(.trailing, 8.0)
-                    
-                    Text("\(result.title!)")
-                        .badge("\(result.price!)")
+                }
+                NavigationLink(destination: WabView()) {
+                    Text("Wow")
                 }
             }
             .refreshable {
@@ -113,30 +118,9 @@ struct ContentView: View {
                     .padding(24)
             }
             .navigationBarItems(leading: Image(systemName: "square.and.arrow.up").imageScale(.large).onTapGesture { showingModal.toggle() })
-            .navigationBarTitle(Text(dateString))
+            .navigationBarTitle(Text("Content"))
             .onAppear {
                 products.getProducts()
-            }
-        }
-        .toolbar {
-            ToolbarItem(placement: .navigationBarLeading) {
-                Button("Get Products") {
-                    products.getProducts()
-                }
-            }
-            
-            ToolbarItem(placement: .bottomBar) {
-                Button("Home") {
-                    
-                }
-            }
-            
-            ToolbarItem(placement: .bottomBar) {
-                NavigationLink(destination: FormView()) {
-                    Text("Twitter")
-                        .font(.title)
-                        .padding(.all, 16)
-                }
             }
         }
         .searchable(text: $searchText)
