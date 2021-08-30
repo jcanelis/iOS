@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B2E376C263614290031669F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E376B263614290031669F /* DetailView.swift */; };
+		0B613B4A26DC6637002CA928 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B613B4926DC6637002CA928 /* WelcomeView.swift */; };
 		0B9BB70B264256FD000D11B1 /* GetProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9BB70A264256FD000D11B1 /* GetProducts.swift */; };
 		0B9E5C3626795544004D8F08 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9E5C3526795544004D8F08 /* DataLoader.swift */; };
 		0BA3A07026268C6800857592 /* TrackQueen2021App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA3A06F26268C6800857592 /* TrackQueen2021App.swift */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		0B2E376B263614290031669F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		0B613B4926DC6637002CA928 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		0B63F0A7264F9A1D0066753D /* TrackQueen2021.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrackQueen2021.entitlements; sourceTree = "<group>"; };
 		0B9BB70A264256FD000D11B1 /* GetProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProducts.swift; sourceTree = "<group>"; };
 		0B9E5C3526795544004D8F08 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				52ABBB6E264334D800EE2B4A /* FormView.swift */,
 				0BA3A07126268C6800857592 /* ContentView.swift */,
 				52DE1E97264071540034583F /* GridView.swift */,
+				0B613B4926DC6637002CA928 /* WelcomeView.swift */,
 				0BD33855263916F600B66644 /* Content.swift */,
 				52D141CF26433ADA00550FA1 /* TabView.swift */,
 				0B9BB70A264256FD000D11B1 /* GetProducts.swift */,
@@ -303,6 +306,7 @@
 				0B2E376C263614290031669F /* DetailView.swift in Sources */,
 				0B9BB70B264256FD000D11B1 /* GetProducts.swift in Sources */,
 				0BA3A07226268C6800857592 /* ContentView.swift in Sources */,
+				0B613B4A26DC6637002CA928 /* WelcomeView.swift in Sources */,
 				0B9E5C3626795544004D8F08 /* DataLoader.swift in Sources */,
 				52DE1E98264071540034583F /* GridView.swift in Sources */,
 				52D141D026433ADA00550FA1 /* TabView.swift in Sources */,

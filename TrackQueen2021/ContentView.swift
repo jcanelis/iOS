@@ -59,9 +59,6 @@ struct ContentView: View {
                             .badge("\(result.price!)")
                     }
                 }
-                NavigationLink(destination: WabView()) {
-                    Text("Wow")
-                }
             }
             .refreshable {
                 await server.fetchServer()
