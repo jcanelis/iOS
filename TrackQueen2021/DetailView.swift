@@ -15,13 +15,14 @@ struct DetailView: View {
     init(item: Product) {
         self.item = item
     }
-    
+ 
     @State private var progress: Double = 1.0
     @State private var isHidden: Bool = false
-    
+
     var body: some View {
         NavigationView {
             ScrollView {
+                
                 TabView {
                     ForEach(item.photos!, id: \.self) { result in
                         AsyncImage(url: result.url!) { image in

@@ -1,0 +1,17 @@
+{
+  "data" : [
+    {
+      "filename" : "data.json",
+      "idiom" : "universal",
+      "universal-type-identifier" : "json"
+    },
+    {
+      "idiom" : "universal",
+      "memory" : "1GB"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

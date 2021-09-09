@@ -6,8 +6,17 @@
         "repositoryURL": "https://github.com/contentful/contentful.swift",
         "state": {
           "branch": null,
-          "revision": "69f364a7a9cb00b99198bf39f1893874104c8505",
-          "version": "5.5.0"
+          "revision": "265a67e67fb3a722f73bd298f0879f3878528ca8",
+          "version": "5.5.1"
+        }
+      },
+      {
+        "package": "Lottie",
+        "repositoryURL": "https://github.com/airbnb/lottie-ios",
+        "state": {
+          "branch": null,
+          "revision": "79a0b70547f7c40ea54c67487f935fa2f2eaaadc",
+          "version": "3.2.3"
         }
       }
     ]
