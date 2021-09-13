@@ -15,7 +15,10 @@ struct DetailView: View {
     init(item: Product) {
         self.item = item
     }
- 
+    
+    
+    // testing
+    
     @State private var progress: Double = 1.0
     @State private var isHidden: Bool = false
 
